@@ -29,7 +29,7 @@ identified_3 = cv2.cvtColor(identified_3,cv2.COLOR_BGR2RGB)
 img_encoding_3 = face_recognition.face_encodings(identified_3)[0]
 #       ... And so on..
 
-#   Create arrays of known face encodings and their names
+#   Create arrays of known face encodings.
 img_encoding = [img_encoding_1, img_encoding_2, img_encoding_3]
 
 #   Retrieves all images from the folder
